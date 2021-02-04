@@ -1,2 +1,2 @@
 # DrauvaSir
-Technical training repo
+Technical training repo held in FIEM and practice
