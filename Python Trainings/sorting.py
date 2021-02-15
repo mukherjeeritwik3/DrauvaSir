@@ -15,7 +15,7 @@ def selctionSort(a, compare):
     for i in range(len(a)):
         minpos = i
         for j in range(i, len(a)):
-            if compare(a[j],a[minpos]):
+            if compare(a[minpos],a[j]):
                 minpos = j
     
         a[i], a[minpos] = a[minpos], a[i]
